@@ -40,6 +40,12 @@ ORDERS o --[LEFT: o.order_id = i.order_id]--> ORDER_ITEMS i
 
 The parser targets readable ANSI JOIN SQL. Deeply nested inline views, dynamically generated SQL and legacy `(+)` semantics are not guessed.
 
+## Visual demo
+
+A static visual preview is included in [`docs/index.html`](docs/index.html).
+
+To publish it with GitHub Pages: **Settings → Pages → Deploy from a branch → `main` → `/docs`**. The repository is already prepared with `docs/.nojekyll`.
+
 ## Oracle Dev Tools family
 
 This repository is part of the **Oracle Dev Tools** suite: small, composable developer utilities designed around Oracle Database 19c, 23ai and 26ai.
